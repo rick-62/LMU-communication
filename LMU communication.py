@@ -229,7 +229,8 @@ def convert_csv():
     op.write(out)
             
     app.update_text("data extracted:\n"
-                    "check Desktop for files\n")        
+                    "check Desktop for files\n")  
+    op.close()
          
 '''Initialization and global variables''' 
 root = Tk()
